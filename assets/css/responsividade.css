@@ -55,6 +55,7 @@
 
     .img-about img {
         width: 100%;
+        border-radius: 15px;
     }
 
     .content-about-left h1 {
@@ -89,6 +90,14 @@
         cursor: pointer;
         height: 100%;
         padding: 0;
+    }
+
+    /*hobbies*/
+    .hobbies-headline span {
+        font-size: 1.6rem;
+    }
+    .hobbies-headline h1 {
+        font-size: 2rem;
     }
 
     /*Skills*/
@@ -310,6 +319,36 @@
         cursor: pointer;
         height: 100%;
         padding: 0;
+    }
+
+    /*hoibbies*/
+    .hobbies{
+        display: flex;
+        width: 95%;
+        max-width: 1920px;
+        height: calc(100vh - 90px);
+        align-items: center;
+        padding: 0;
+    }
+    .container-hobbies{
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 3rem;
+
+    }
+    .hobbies-headline span {
+        font-size: 1.6rem;
+    }
+    .hobbies-headline h1 {
+        font-size: 2rem;
+    }
+    .hobbies-headline{
+        width: 50%;
+        height: calc(100vh - 90px);
     }
 
     /*Skills*/
